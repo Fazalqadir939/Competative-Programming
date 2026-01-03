@@ -1,0 +1,1 @@
+//// Created by User on 03-Jan-26.//#include <iostream>using namespace std;int main(){    int k,n,w;    cin >> k>>n>>w;    int total_dollar=0;    for (int i =1;i<=w;i++)    {        total_dollar+=i*k;    }    //cout << total_dollar;    if (n<total_dollar)    {        cout << total_dollar-n;    }    else    {        cout << 0;    }}
