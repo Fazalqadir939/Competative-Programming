@@ -1,0 +1,1 @@
+//// Created by User on 04-Jan-26.//#include <iostream>using namespace std;int main(){    int test_cases;    cin >> test_cases;    int room =0;    for (int i =1;i<=test_cases;i++)    {        int a , b;        cin >>a>>b;        int sum = a+2;        if (a+2<=b)        {            room++;        }     }    cout<<room;}
