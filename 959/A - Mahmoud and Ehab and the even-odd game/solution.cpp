@@ -1,0 +1,1 @@
+//// Created by Fazal Qadir on 06-Jan-26.//#include<iostream>using namespace std;int main(){    int a;    cin >> a;    if(a%2==0)    {      cout << "Mahmoud";    }    else    {      cout << "Ehab";    }}
