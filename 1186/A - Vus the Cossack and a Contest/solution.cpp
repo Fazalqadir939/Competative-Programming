@@ -1,1 +1,1 @@
-#include<iostream>using namespace std;int main(){    int n,m,k;    cin >> n>>m>>k;    if(m>=n&&k>=n){        cout << "YES";    }    else{        cout << "NO";    }}
+#include<iostream>using namespace std;int main(){    int ni,m,k;    cin >> ni>>m>>k;    if(m>=ni&&k>=ni){        cout << "YES";    }    else{        cout << "NO";    }}
