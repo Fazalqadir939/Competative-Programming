@@ -1,0 +1,1 @@
+#include<iostream>using namespace std;int main(){    int test;    cin >> test;    for (int i =1;i<=test;i++)    {        int a,b;        cin >> a >> b ;        int result =1;        if (a==0)        {            result =1;        }        else        {            result = a+(2*b)+1;        }        cout << result<<endl;    }}
