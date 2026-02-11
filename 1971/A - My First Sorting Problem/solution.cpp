@@ -1,0 +1,1 @@
+#include<iostream>using  namespace std;int main(){    int test;     cin >> test;    for (int i =1;i<=test;i++)    {        int a,b;        cin >> a>>b;        if (a<b)        {            cout << a<<" "<<b<<endl;        }        else        {            cout << b << " "<<a<<endl;        }    }}
