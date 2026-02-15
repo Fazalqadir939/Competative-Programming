@@ -1,0 +1,1 @@
+//// Created by fazalqadir on 2/15/26.//#include<iostream>using namespace std;int main(){    int t;    cin >> t;    int up =0,down =0;    for (int i =1;i<=t;i++)    {        string str;        cin >> str;        if (str=="++X"||str=="X++")        {            up++;        }        else if(str=="--X"||str=="X--")        {            down--;        }    }    cout << up+down;}
