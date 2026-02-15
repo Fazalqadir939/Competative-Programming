@@ -1,0 +1,1 @@
+//// Created by fazalqadir on 2/15/26.//#include<iostream>using namespace std;int main(){    int test;    cin >> test;    for (int i =1;i<=test;i++)    {        int n,w;        cin >> n>>w;        cout << n*(w%2)<<endl;    }}
