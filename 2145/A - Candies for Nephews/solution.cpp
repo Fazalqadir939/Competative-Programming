@@ -1,0 +1,1 @@
+//// Created by fazalqadir on 2/15/26.//#include<iostream>using namespace std;int main(){    int t;    cin >> t;    for(int i =1;i<=t;i++){        int n;        cin >> n;        if (n%3==0)        {            cout << 0 << endl;        }        else        {            cout << 3-(n%3)<<endl;        }    }}
