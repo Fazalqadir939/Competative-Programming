@@ -1,0 +1,1 @@
+#include<iostream>using namespace std;int main(){    string str;    cin >> str;    int len = str.length();    for (int i =0;i<len;i+=2)    {        for (int j =i+2;j<len;j+=2)        {            if (str[i]>str[j])            {                char temp = str[i];                str[i]=str[j];                str[j]=temp;            }        }    }    cout << str;}
