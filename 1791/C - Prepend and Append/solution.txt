@@ -1,0 +1,1 @@
+test = int(input())for i in range(test):    n = int(input())    string = str(input())    count = int(0)    for j in range(n):        if (string[j] != string[n - 1 - j] and j< n//2):            count+=1        else:            break    print(n - (count * 2))
