@@ -1,0 +1,16 @@
+test = int(input())
+for j in range(test):
+    n = int(input())
+    my_list = [0]*n
+    flag  = bool(False)
+    for i in range(n):
+        if i==0:
+            raw_data = input()
+    #my_list[i] = int(input())
+        my_list = list(map(int,raw_data.split()))
+        if my_list[i]==67:
+            flag= True
+    if flag:
+        print("YES")
+    else:
+        print("NO")
