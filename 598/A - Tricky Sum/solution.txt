@@ -1,0 +1,12 @@
+test = int(input())
+for i in range(test):
+    number = int(input())
+    sum = int((number * (number+1) ) // 2)
+    count = int(0)
+    k = int()
+    while k<=number:
+        k = pow(2,count)
+        sum-= k
+        count+=1
+    print(sum+1)
+    
