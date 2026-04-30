@@ -1,0 +1,30 @@
+#=======================================================================================
+#
+#                         بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ
+# "وَلَقَدْ خَلَقْنَا الْإِنْسَانَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِ نَفْسُهُ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ" (Quran 50:16) -
+#
+#
+#-======================================================================================
+dic = {}
+main_dic = {}
+n = input().split()
+for j in range(int(n[1])):
+    name = input()
+    dico = list(map(str,name.split()))
+    for i in range(len(dico)//2):
+        dic[dico[i]] =dico[i+1]
+        dic[dico[i+1]] = dico[i]
+want = input().split()
+real = str()
+for j in range(len(want)):
+    wow = want[j]
+    omg = dic[wow]
+    if len(wow)<=len(omg):
+        real+=wow
+        if j!=len(want)-1:
+            real+=" "
+    else:
+        real+=omg
+        if j != len(want) - 1:
+            real += " "
+print(real,end='')
