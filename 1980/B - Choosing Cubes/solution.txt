@@ -1,0 +1,30 @@
+#=======================================================================================
+#
+#                         بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ
+# "وَلَقَدْ خَلَقْنَا الْإِنْسَانَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِ نَفْسُهُ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ" (Quran 50:16) -
+#
+#-======================================================================================
+import sys
+cin = sys.stdin.readline
+test = int(cin())
+for i in range(test):
+    raw = cin().split()
+    n = int(raw[0])
+    f = int(raw[1])
+    k = int(raw[2])
+    arr = list(map(int,cin().split()))
+    num = arr[f-1]
+    #arr = sorted(arr)
+    flag = bool(True)
+    arr.sort(reverse=True)
+    lis2 = arr[:k]
+    lis1 = arr[k:n]
+    val = int(0)
+    if num in lis1 and num in  lis2:
+        print("Maybe")
+    elif num in lis2:
+        print("YES")
+    else:
+        print("NO")
+ 
+ 
