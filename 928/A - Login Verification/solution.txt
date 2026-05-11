@@ -1,0 +1,32 @@
+#=======================================================================================
+#
+#                         بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ
+# "وَلَقَدْ خَلَقْنَا الْإِنْسَانَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِ نَفْسُهُ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ" (Quran 50:16) -
+#
+#-======================================================================================
+ 
+password = input()
+tries = int(input())
+password = password.lower()
+password = password.replace('o', '0')
+password = password.replace('i', '1').replace('l', '1')
+#password= sorted(password)
+password = "".join(password)
+#print(password)
+flag = bool(True)
+p=1
+for i in range(tries):
+    key = input()
+    if flag:
+        key = key.lower()
+        key = key.replace('o', '0')
+        key = key.replace('i', '1').replace('l', '1')
+        #key = sorted(key)
+        key = "".join(key)
+    #print(key)
+    if key==password and p==1:
+        print('No')
+        flag = False
+        p+=1
+if flag:
+    print('Yes')
