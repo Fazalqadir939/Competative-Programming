@@ -1,0 +1,17 @@
+n, m = map(int, input().split())
+ 
+p = n + 1
+while True:
+    is_prime = True
+    for i in range(2, p):
+        if p % i == 0:
+            is_prime = False
+            break
+    if is_prime:
+        break
+    p += 1
+ 
+if p == m:
+    print("YES")
+else:
+    print("NO")
