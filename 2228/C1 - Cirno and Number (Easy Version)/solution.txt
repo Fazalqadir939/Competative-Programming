@@ -1,0 +1,40 @@
+#=======================================================================================
+#
+#                         بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ
+# "وَلَقَدْ خَلَقْنَا الْإِنْسَانَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِ نَفْسُهُ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ" (Quran 50:16) -
+#
+#-======================================================================================
+import sys
+input = sys.stdin.readline
+ 
+t = int(input())
+for _ in range(t):
+    a, n = map(int, input().split())
+    ds = list(map(int, input().split()))
+    a_s = str(a)
+    best = float('inf')
+    for L in range(1, 20):
+        stack = [(0, 0, L == len(a_s))]
+        while stack:
+            pos, val, tight = stack.pop()
+            if pos == L:
+                best = min(best, abs(a - val))
+                continue
+            for d in ds:
+                if pos == 0 and d == 0 and L > 1:
+                    continue
+                nv = val * 10 + d
+                rem = L - pos - 1
+                if tight and d == int(a_s[pos]):
+                    if rem == 0:
+                        best = min(best, 0)
+                    else:
+                        stack.append((pos + 1, nv, True))
+                elif rem == 0:
+                    best = min(best, abs(a - nv))
+                else:
+                    p = 10 ** rem
+                    best = min(best,
+                        abs(a - nv * p - int(str(ds[0]) * rem)),
+                        abs(a - nv * p - int(str(ds[-1]) * rem)))
+    print(best)
