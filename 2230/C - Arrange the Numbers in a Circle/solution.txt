@@ -1,0 +1,40 @@
+# =======================================================================================
+#
+#                         بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ
+# "وَلَقَدْ خَلَقْنَا الْإِنْسَانَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِ نَفْسُهُ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ" (Quran 50:16)
+#
+#      Monday , 18 MAY,2K26                                    Fazal Qadir
+#      Educational Codeforces Round 190 (Rated for Div. 2)
+#      Current Rating: 1132 ( Newbie )
+# =======================================================================================
+test = int(input())
+for _ in range(test):
+    n = int(input())
+    arr = list(map(int, input().split()))
+    s = 0
+    t_arr = []
+    for c in arr:
+        if c == 1:
+            s += 1
+        else:
+            t_arr.append(c)
+    if len(t_arr) == 0:
+        print(0)
+    elif len(t_arr) == 1:
+        ans = t_arr[0]+min(s,t_arr[0]// 2)
+        #print(ans)
+        if ans >=3:
+            print(ans)
+        else:
+            print(0)
+    else:
+        total = sum(t_arr)
+        cap = 0
+        for val in t_arr:
+            cap += (val - 2) // 2
+        ans = total+ min(s,cap)
+        #print('--------')
+        if ans >=3:
+            print(ans)
+        else:
+            print(0)
