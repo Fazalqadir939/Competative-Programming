@@ -1,0 +1,27 @@
+# =======================================================================================
+#
+#                         بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ
+# "وَلَقَدْ خَلَقْنَا الْإِنْسَانَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِ نَفْسُهُ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ" (Quran 50:16)
+#
+#      Monday , 18 MAY,2K26                                    Fazal Qadir
+#      Educational Codeforces Round 190 (Rated for Div. 2)
+#      Current Rating: 1132 ( Newbie )
+# =======================================================================================
+import sys
+input = sys.stdin.readline
+test = int(input())
+for _ in range(test):
+    s = input().strip()
+    four = s.count('4')
+    #print(four)
+    p =0
+    remove_cha_ker = 0
+    for ch in s:
+        if ch in '13':
+            p+=1
+        elif ch=='2':
+            if p>0:
+                remove_cha_ker += 1
+                p-= 1
+                #print(p)
+    print(four+remove_cha_ker)
