@@ -1,0 +1,19 @@
+# =======================================================================================
+#
+#                         بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ
+# "وَلَقَدْ خَلَقْنَا الْإِنْسَانَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِ نَفْسُهُ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ" (Quran 50:16)
+#
+#      Monday , 18 MAY,2K26                                    Fazal Qadir
+#      Educational Codeforces Round 190 (Rated for Div. 2)
+#      Current Rating: 1132 ( Newbie )
+# =======================================================================================
+test = int(input())
+for i in range(test):
+    n,a,b = map(int, input().split())
+    halwa=n // 3
+    pakora =n % 3
+    c1 = halwa*min(b,3*a)+(pakora*a)
+    jalebi = (min(b,pakora*a)if pakora else 0)
+    #print(jalebi)
+    c2 = halwa*min(b,3*a)+ jalebi
+    print(min(c1, c2))
