@@ -1,0 +1,30 @@
+# =======================================================================================
+#
+#                        بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ
+# "وَلَقَدْ خَلَقْنَا الْإِنْسَانَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِ نَفْسُهُ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ" (Quran 50:16)
+#
+# Saturday , 30 MAY,2K26                                    Fazal Qadir
+#      Current Rating: 1207  --> Pupil   -->   @fazalqadir
+# =======================================================================================
+import sys
+input = sys.stdin.readline
+test = int(input())
+for _ in range(test):
+    n = int(input())
+    s1 = set(input().split())
+    s2 = set(input().split())
+    s3 = set(input().split())
+    sc1 = sc2 = sc3 = 0
+    for w in s1:
+        c = (w in s2) + (w in s3)
+        if c == 0: sc1 += 3
+        elif c == 1: sc1 += 1
+    for w in s2:
+        c = (w in s1) + (w in s3)
+        if c == 0: sc2 += 3
+        elif c == 1: sc2 += 1
+    for w in s3:
+        c = (w in s1) + (w in s2)
+        if c == 0: sc3 += 3
+        elif c == 1: sc3 += 1
+    print(sc1, sc2, sc3)
