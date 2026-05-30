@@ -1,0 +1,10 @@
+from collections import deque
+n = int(input())
+t = list(map(int, input().split()))
+groups = {1: deque(), 2: deque(), 3: deque()}
+for i, x in enumerate(t):
+    groups[x].append(i + 1)
+w = min(len(groups[1]), len(groups[2]), len(groups[3]))
+print(w)
+for _ in range(w):
+    print(groups[1].popleft(), groups[2].popleft(), groups[3].popleft())
