@@ -1,0 +1,19 @@
+import sys
+input = sys.stdin.read
+data = input().split()
+if data:
+    t = int(data[0])
+    ptr = 1
+    for _ in range(t):
+        n = int(data[ptr])
+        s = data[ptr + 1]
+        ptr += 2
+        seen = set()
+        score = 0
+        for char in s:
+            if char not in seen:
+                score += 2
+                seen.add(char)
+            else:
+                score += 1
+        print(score)
