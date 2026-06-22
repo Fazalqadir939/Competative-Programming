@@ -1,24 +1,73 @@
-<h2><a href="https://codeforces.com/contest/1950/problem/A" target="_blank" rel="noopener noreferrer">1950A — Stair, Peak, or Neither?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 800 |
-| **Language** | C++17 (GCC 7-32) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 1950A](https://codeforces.com/contest/1950/problem/A) |
-
-## Topics
-`implementation`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">A. Stair, Peak, or Neither?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given three digits <mjx-container class="MathJax" jax="CHTML" display="true" style="font-size: 117.2%; position: relative;"><mjx-math display="true" class="MJX-TEX" aria-hidden="true" style="margin-left: 0px; margin-right: 0px;"><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c24"></mjx-c></mjx-mo></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44E TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="ORD"><mo>$</mo></mrow><mi>a</mi></math></mjx-assistive-mml></mjx-container>$, <mjx-container class="MathJax" jax="CHTML" display="true" style="font-size: 117.2%; position: relative;"><mjx-math display="true" class="MJX-TEX" aria-hidden="true" style="margin-left: 0px; margin-right: 0px;"><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c24"></mjx-c></mjx-mo></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44F TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="ORD"><mo>$</mo></mrow><mi>b</mi></math></mjx-assistive-mml></mjx-container>$, and <mjx-container class="MathJax" jax="CHTML" display="true" style="font-size: 117.2%; position: relative;"><mjx-math display="true" class="MJX-TEX" aria-hidden="true" style="margin-left: 0px; margin-right: 0px;"><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c24"></mjx-c></mjx-mo></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D450 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="ORD"><mo>$</mo></mrow><mi>c</mi></math></mjx-assistive-mml></mjx-container>$. Determine whether they form a stair, a peak, or neither. </p><ul> <li> A <span class="tex-font-style-it">stair</span> satisfies the condition <mjx-container class="MathJax" jax="CHTML" display="true" style="font-size: 117.2%; position: relative;"><mjx-math display="true" class="MJX-TEX" aria-hidden="true" style="margin-left: 0px; margin-right: 0px;"><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c24"></mjx-c></mjx-mo></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44E TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3C"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="4"><mjx-c class="mjx-c1D44F TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3C"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="4"><mjx-c class="mjx-c1D450 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="ORD"><mo>$</mo></mrow><mi>a</mi><mo><</mo><mi>b</mi><mo><</mo><mi>c</mi></math></mjx-assistive-mml></mjx-container>$. </li><li> A <span class="tex-font-style-it">peak</span> satisfies the condition <mjx-container class="MathJax" jax="CHTML" display="true" style="font-size: 117.2%; position: relative;"><mjx-math display="true" class="MJX-TEX" aria-hidden="true" style="margin-left: 0px; margin-right: 0px;"><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c24"></mjx-c></mjx-mo></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44E TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3C"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="4"><mjx-c class="mjx-c1D44F TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3E"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="4"><mjx-c class="mjx-c1D450 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="ORD"><mo>$</mo></mrow><mi>a</mi><mo><</mo><mi>b</mi><mo>></mo><mi>c</mi></math></mjx-assistive-mml></mjx-container>$. </li></ul></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer <mjx-container class="MathJax" jax="CHTML" display="true" style="font-size: 117.2%; position: relative;"><mjx-math display="true" class="MJX-TEX" aria-hidden="true" style="margin-left: 0px; margin-right: 0px;"><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c24"></mjx-c></mjx-mo></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D461 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="ORD"><mo>$</mo></mrow><mi>t</mi></math></mjx-assistive-mml></mjx-container>$ (<mjx-container class="MathJax" jax="CHTML" display="true" style="font-size: 117.2%; position: relative;"><mjx-math display="true" class="MJX-TEX" aria-hidden="true" style="margin-left: 0px; margin-right: 0px;"><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c24"></mjx-c></mjx-mo></mjx-texatom><mjx-mn class="mjx-n"><mjx-c class="mjx-c31"></mjx-c></mjx-mn><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c2264"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="4"><mjx-c class="mjx-c1D461 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c2264"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="ORD"><mo>$</mo></mrow><mn>1</mn><mo>≤</mo><mi>t</mi><mo>≤</mo><mn>1000</mn></math></mjx-assistive-mml></mjx-container>$) — the number of test cases.</p><p>The only line of each test case contains three digits <mjx-container class="MathJax" jax="CHTML" display="true" style="font-size: 117.2%; position: relative;"><mjx-math display="true" class="MJX-TEX" aria-hidden="true" style="margin-left: 0px; margin-right: 0px;"><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c24"></mjx-c></mjx-mo></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44E TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="ORD"><mo>$</mo></mrow><mi>a</mi></math></mjx-assistive-mml></mjx-container>$, <mjx-container class="MathJax" jax="CHTML" display="true" style="font-size: 117.2%; position: relative;"><mjx-math display="true" class="MJX-TEX" aria-hidden="true" style="margin-left: 0px; margin-right: 0px;"><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c24"></mjx-c></mjx-mo></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44F TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="ORD"><mo>$</mo></mrow><mi>b</mi></math></mjx-assistive-mml></mjx-container>$, <mjx-container class="MathJax" jax="CHTML" display="true" style="font-size: 117.2%; position: relative;"><mjx-math display="true" class="MJX-TEX" aria-hidden="true" style="margin-left: 0px; margin-right: 0px;"><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c24"></mjx-c></mjx-mo></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D450 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="ORD"><mo>$</mo></mrow><mi>c</mi></math></mjx-assistive-mml></mjx-container>$ (<mjx-container class="MathJax" jax="CHTML" display="true" style="font-size: 117.2%; position: relative;"><mjx-math display="true" class="MJX-TEX" aria-hidden="true" style="margin-left: 0px; margin-right: 0px;"><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c24"></mjx-c></mjx-mo></mjx-texatom><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c></mjx-mn><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c2264"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="4"><mjx-c class="mjx-c1D44E TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="ORD"><mo>$</mo></mrow><mn>0</mn><mo>≤</mo><mi>a</mi></math></mjx-assistive-mml></mjx-container>$, <mjx-container class="MathJax" jax="CHTML" display="true" style="font-size: 117.2%; position: relative;"><mjx-math display="true" class="MJX-TEX" aria-hidden="true" style="margin-left: 0px; margin-right: 0px;"><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c24"></mjx-c></mjx-mo></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44F TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="ORD"><mo>$</mo></mrow><mi>b</mi></math></mjx-assistive-mml></mjx-container>$, <mjx-container class="MathJax" jax="CHTML" display="true" style="font-size: 117.2%; position: relative;"><mjx-math display="true" class="MJX-TEX" aria-hidden="true" style="margin-left: 0px; margin-right: 0px;"><mjx-texatom texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c24"></mjx-c></mjx-mo></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D450 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c2264"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c39"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="block"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow data-mjx-texclass="ORD"><mo>$</mo></mrow><mi>c</mi><mo>≤</mo><mn>9</mn></math></mjx-assistive-mml></mjx-container>$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output "<span class="tex-font-style-tt">STAIR</span>" if the digits form a stair, "<span class="tex-font-style-tt">PEAK</span>" if the digits form a peak, and "<span class="tex-font-style-tt">NONE</span>" otherwise (output the strings without quotes).</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007891137878486213" id="id004208816671539892" class="input-output-copier">Copy</div></div><pre id="id007891137878486213"><div class="test-example-line test-example-line-even test-example-line-0">7</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2 3</div><div class="test-example-line test-example-line-even test-example-line-2">3 2 1</div><div class="test-example-line test-example-line-odd test-example-line-3">1 5 3</div><div class="test-example-line test-example-line-even test-example-line-4">3 4 1</div><div class="test-example-line test-example-line-odd test-example-line-5">0 0 0</div><div class="test-example-line test-example-line-even test-example-line-6">4 1 7</div><div class="test-example-line test-example-line-odd test-example-line-7">4 5 7</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009628111807450502" id="id0015582065509759813" class="input-output-copier">Copy</div></div><pre id="id009628111807450502">STAIR
-NONE
-PEAK
-PEAK
-NONE
-NONE
-STAIR
-</pre></div></div></div>
+// =======================================================================================
+//
+//                         بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ
+// "وَلَقَدْ خَلَقْنَا الْإِنْسَانَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِ نَفْسُهُ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ" (Quran 50:16)
+//
+// day , 22 June,2K26                                    Fazal Qadir
+//      Current Rating: 1237  --> Pupil   -->   @fazalqadir
+// =======================================================================================
+// Created by Fazal Qadir on 6/22/2026.
+ 
+#include<bits/stdc++.h>
+using namespace std;
+// --- Shortened ---
+ 
+using ll = long long;
+using ld = long double;
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+using vi = vector<int>;
+using vll = vector<ll>;
+ 
+// --- Macros --- 
+ 
+#define all(x) (x).begin(), (x).end()
+#define sz(x) ((int)(x).size())
+#define pb push_back
+#define fi first
+#define se second
+ 
+// --- Local Debugger ---
+ 
+#ifndef ONLINE_JUDGE
+#define debug(x) cerr << #x << " = " << (x) << endl;
+#else
+#define debug(x)
+#endif
+ 
+// --- User Defined function Part --- 
+ 
+void solve();
+ 
+ 
+// --- main function ---
+ 
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+	
+// ---  Don't change above ---
+    int test=1;
+    cin >> test;
+    while(test--){
+    solve();
+    }
+}
+ 
+// ---  Actual code itthe rakh ---
+ 
+void solve(){
+	int a, b, c;
+    cin >> a >> b >> c;
+    if (a<b&&b<c) {
+        cout << "STAIR
+";
+    } else if (a<b && b > c) {
+        cout << "PEAK
+";
+    } else {
+        cout << "NONE
+";
+    }
+ 
+}
