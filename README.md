@@ -6,15 +6,29 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 1 |
+| 2 | 3 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [data structures](#data-structures) (1)
+- [greedy](#greedy) (1)
 - [implementation](#implementation) (1)
 
 ---
+
+### data structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2007B | [Index and Maximum Value](https://codeforces.com/contest/2007/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2007/B%20-%20Index%20and%20Maximum%20Value/solution.cpp) |
+
+### greedy
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2007B | [Index and Maximum Value](https://codeforces.com/contest/2007/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2007/B%20-%20Index%20and%20Maximum%20Value/solution.cpp) |
 
 ### implementation
 
