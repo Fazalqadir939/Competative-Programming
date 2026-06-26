@@ -6,19 +6,27 @@
 
 | Total Problems | Topics |
 |---|---|
-| 3 | 5 |
+| 4 | 7 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [*special](#special) (1)
 - [binary search](#binary-search) (1)
 - [data structures](#data-structures) (1)
 - [dp](#dp) (1)
 - [greedy](#greedy) (1)
 - [implementation](#implementation) (2)
+- [math](#math) (1)
 
 ---
+
+### *special
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2095F | [⅓ оf а Рrоblеm](https://codeforces.com/contest/2095/problem/F) | Unrated | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2095/F%20-%20%E2%85%93%20%D0%BEf%20%D0%B0%20%D0%A0r%D0%BEbl%D0%B5m/solution.cpp) |
 
 ### binary search
 
@@ -50,6 +58,12 @@
 |---|---------|------------|----------|
 | 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 1950A | [Stair, Peak, or Neither?](https://codeforces.com/contest/1950/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1950/A%20-%20Stair%2C%20Peak%2C%20or%20Neither%3F/solution.cpp) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2095F | [⅓ оf а Рrоblеm](https://codeforces.com/contest/2095/problem/F) | Unrated | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2095/F%20-%20%E2%85%93%20%D0%BEf%20%D0%B0%20%D0%A0r%D0%BEbl%D0%B5m/solution.cpp) |
 
 ---
 
