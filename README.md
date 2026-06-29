@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 4 | 7 |
+| 5 | 9 |
 
 ---
 
@@ -16,9 +16,11 @@
 - [binary search](#binary-search) (1)
 - [data structures](#data-structures) (1)
 - [dp](#dp) (1)
-- [greedy](#greedy) (1)
+- [games](#games) (1)
+- [greedy](#greedy) (2)
 - [implementation](#implementation) (2)
 - [math](#math) (1)
+- [schedules](#schedules) (1)
 
 ---
 
@@ -46,11 +48,18 @@
 |---|---------|------------|----------|
 | 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
+
 ### greedy
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2007B | [Index and Maximum Value](https://codeforces.com/contest/2007/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2007/B%20-%20Index%20and%20Maximum%20Value/solution.cpp) |
+| 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
 
 ### implementation
 
@@ -64,6 +73,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2095F | [⅓ оf а Рrоblеm](https://codeforces.com/contest/2095/problem/F) | Unrated | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2095/F%20-%20%E2%85%93%20%D0%BEf%20%D0%B0%20%D0%A0r%D0%BEbl%D0%B5m/solution.cpp) |
+
+### schedules
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
 
 ---
 
