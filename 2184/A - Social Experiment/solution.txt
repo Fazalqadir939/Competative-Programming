@@ -1,0 +1,16 @@
+import sys
+d = sys.stdin.read().split()
+if d:
+    res = []
+    for x in d[1:]:
+        n = int(x)
+        if n == 2:
+            res.append("2")
+        elif n == 3:
+            res.append("3")
+        elif n % 2 == 0:
+            res.append("0")
+        else:
+            res.append("1")
+    print('
+'.join(res))
