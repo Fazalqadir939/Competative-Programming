@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 13 | 12 |
+| 14 | 13 |
 
 ---
 
@@ -15,12 +15,13 @@
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (5)
 - [binary search](#binary-search) (1)
+- [brute force](#brute-force) (1)
 - [data structures](#data-structures) (1)
 - [dp](#dp) (1)
 - [games](#games) (1)
 - [greedy](#greedy) (2)
 - [implementation](#implementation) (4)
-- [math](#math) (2)
+- [math](#math) (3)
 - [number theory](#number-theory) (1)
 - [schedules](#schedules) (1)
 - [sortings](#sortings) (1)
@@ -48,6 +49,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
+
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1343A | [Candies](https://codeforces.com/contest/1343/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1343/A%20-%20Candies/solution.cpp) |
 
 ### data structures
 
@@ -88,6 +95,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 472A | [Design Tutorial: Learn from Math](https://codeforces.com/contest/472/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/472/A%20-%20Design%20Tutorial%3A%20Learn%20from%20Math/solution.cpp) |
+| 1343A | [Candies](https://codeforces.com/contest/1343/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1343/A%20-%20Candies/solution.cpp) |
 | 2095F | [⅓ оf а Рrоblеm](https://codeforces.com/contest/2095/problem/F) | Unrated | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2095/F%20-%20%E2%85%93%20%D0%BEf%20%D0%B0%20%D0%A0r%D0%BEbl%D0%B5m/solution.cpp) |
 
 ### number theory
