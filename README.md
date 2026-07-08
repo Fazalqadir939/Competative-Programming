@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 14 | 13 |
+| 15 | 13 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [games](#games) (1)
 - [greedy](#greedy) (2)
 - [implementation](#implementation) (4)
-- [math](#math) (3)
+- [math](#math) (4)
 - [number theory](#number-theory) (1)
 - [schedules](#schedules) (1)
 - [sortings](#sortings) (1)
@@ -97,6 +97,7 @@
 | 472A | [Design Tutorial: Learn from Math](https://codeforces.com/contest/472/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/472/A%20-%20Design%20Tutorial%3A%20Learn%20from%20Math/solution.cpp) |
 | 1343A | [Candies](https://codeforces.com/contest/1343/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1343/A%20-%20Candies/solution.cpp) |
 | 2095F | [⅓ оf а Рrоblеm](https://codeforces.com/contest/2095/problem/F) | Unrated | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2095/F%20-%20%E2%85%93%20%D0%BEf%20%D0%B0%20%D0%A0r%D0%BEbl%D0%B5m/solution.cpp) |
+| 2184A | [Social Experiment](https://codeforces.com/contest/2184/problem/A) | 800 | [PyPy 3](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2184/A%20-%20Social%20Experiment/solution.txt) |
 
 ### number theory
 
