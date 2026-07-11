@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 15 | 13 |
+| 16 | 13 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [dp](#dp) (1)
 - [games](#games) (1)
 - [greedy](#greedy) (2)
-- [implementation](#implementation) (4)
+- [implementation](#implementation) (5)
 - [math](#math) (4)
 - [number theory](#number-theory) (1)
 - [schedules](#schedules) (1)
@@ -85,6 +85,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 144A | [Arrival of the General](https://codeforces.com/contest/144/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/144/A%20-%20Arrival%20of%20the%20General/solution.cpp) |
 | 408B | [Garland](https://codeforces.com/contest/408/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/408/B%20-%20Garland/solution.cpp) |
 | 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 1669B | [Triple](https://codeforces.com/contest/1669/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1669/B%20-%20Triple/solution.cpp) |
