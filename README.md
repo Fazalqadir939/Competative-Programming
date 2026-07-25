@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 17 | 13 |
+| 18 | 14 |
 
 ---
 
@@ -16,6 +16,7 @@
 - [Uncategorized](#uncategorized) (5)
 - [binary search](#binary-search) (1)
 - [brute force](#brute-force) (1)
+- [constructive algorithms](#constructive-algorithms) (1)
 - [data structures](#data-structures) (1)
 - [dp](#dp) (1)
 - [games](#games) (1)
@@ -55,6 +56,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1343A | [Candies](https://codeforces.com/contest/1343/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1343/A%20-%20Candies/solution.cpp) |
+
+### constructive algorithms
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1890A | [Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1890/A%20-%20Doremy's%20Paint%203/solution.cpp) |
 
 ### data structures
 
