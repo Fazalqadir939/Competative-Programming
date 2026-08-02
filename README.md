@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 21 | 14 |
+| 22 | 14 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (5)
 - [binary search](#binary-search) (1)
 - [brute force](#brute-force) (1)
-- [constructive algorithms](#constructive-algorithms) (3)
+- [constructive algorithms](#constructive-algorithms) (4)
 - [data structures](#data-structures) (1)
 - [dp](#dp) (1)
 - [games](#games) (1)
@@ -61,6 +61,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.cpp) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.cpp) |
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.cpp) |
 | 1890A | [Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1890/A%20-%20Doremy's%20Paint%203/solution.cpp) |
