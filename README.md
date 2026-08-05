@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 23 | 14 |
+| 24 | 14 |
 
 ---
 
@@ -15,8 +15,8 @@
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (5)
 - [binary search](#binary-search) (1)
-- [brute force](#brute-force) (2)
-- [constructive algorithms](#constructive-algorithms) (4)
+- [brute force](#brute-force) (3)
+- [constructive algorithms](#constructive-algorithms) (5)
 - [data structures](#data-structures) (1)
 - [dp](#dp) (1)
 - [games](#games) (1)
@@ -56,12 +56,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1343A | [Candies](https://codeforces.com/contest/1343/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1343/A%20-%20Candies/solution.cpp) |
+| 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.cpp) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.cpp) |
 
 ### constructive algorithms
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.cpp) |
 | 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.cpp) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.cpp) |
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.cpp) |
