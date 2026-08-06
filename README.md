@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 24 | 14 |
+| 25 | 15 |
 
 ---
 
@@ -26,6 +26,7 @@
 - [number theory](#number-theory) (3)
 - [schedules](#schedules) (1)
 - [sortings](#sortings) (1)
+- [strings](#strings) (1)
 
 ---
 
@@ -141,6 +142,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1669B | [Triple](https://codeforces.com/contest/1669/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1669/B%20-%20Triple/solution.cpp) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1883B | [Chemistry](https://codeforces.com/contest/1883/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1883/B%20-%20Chemistry/solution.cpp) |
 
 ---
 
