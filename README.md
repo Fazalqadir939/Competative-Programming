@@ -6,169 +6,28 @@
 
 | Total Problems | Topics |
 |---|---|
-| 31 | 16 |
+| 1 | 2 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [*special](#special) (1)
-- [Uncategorized](#uncategorized) (5)
-- [binary search](#binary-search) (1)
-- [brute force](#brute-force) (6)
-- [combinatorics](#combinatorics) (1)
-- [constructive algorithms](#constructive-algorithms) (5)
-- [data structures](#data-structures) (2)
-- [dp](#dp) (1)
-- [games](#games) (1)
-- [greedy](#greedy) (7)
-- [implementation](#implementation) (10)
-- [math](#math) (11)
-- [number theory](#number-theory) (4)
-- [schedules](#schedules) (1)
-- [sortings](#sortings) (2)
+- [implementation](#implementation) (1)
 - [strings](#strings) (1)
 
 ---
-
-### *special
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 2095F | [⅓ оf а Рrоblеm](https://codeforces.com/contest/2095/problem/F) | Unrated | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2095/F%20-%20%E2%85%93%20%D0%BEf%20%D0%B0%20%D0%A0r%D0%BEbl%D0%B5m/solution.cpp) |
-
-### Uncategorized
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
-| 2241C | [RemovevomeR](https://codeforces.com/contest/2241/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2241/C%20-%20RemovevomeR/solution.cpp) |
-| 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2242/A%20-%20Bigrams/solution.cpp) |
-| 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
-| 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
-
-### binary search
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
-
-### brute force
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1343A | [Candies](https://codeforces.com/contest/1343/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1343/A%20-%20Candies/solution.cpp) |
-| 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.cpp) |
-| 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.cpp) |
-| 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
-| 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
-| 1875A | [Jellyfish and Undertale](https://codeforces.com/contest/1875/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1875/A%20-%20Jellyfish%20and%20Undertale/solution.cpp) |
-
-### combinatorics
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
-
-### constructive algorithms
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.cpp) |
-| 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.cpp) |
-| 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.cpp) |
-| 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.cpp) |
-| 1890A | [Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1890/A%20-%20Doremy's%20Paint%203/solution.cpp) |
-
-### data structures
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
-| 2007B | [Index and Maximum Value](https://codeforces.com/contest/2007/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2007/B%20-%20Index%20and%20Maximum%20Value/solution.cpp) |
-
-### dp
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
-
-### games
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
-
-### greedy
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1837B | [Comparison String](https://codeforces.com/contest/1837/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1837/B%20-%20Comparison%20String/solution.cpp) |
-| 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
-| 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
-| 1857A | [Array Coloring](https://codeforces.com/contest/1857/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1857/A%20-%20Array%20Coloring/solution.cpp) |
-| 1875A | [Jellyfish and Undertale](https://codeforces.com/contest/1875/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1875/A%20-%20Jellyfish%20and%20Undertale/solution.cpp) |
-| 2007B | [Index and Maximum Value](https://codeforces.com/contest/2007/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2007/B%20-%20Index%20and%20Maximum%20Value/solution.cpp) |
-| 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 144A | [Arrival of the General](https://codeforces.com/contest/144/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/144/A%20-%20Arrival%20of%20the%20General/solution.cpp) |
-| 408B | [Garland](https://codeforces.com/contest/408/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/408/B%20-%20Garland/solution.cpp) |
-| 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
-| 1669B | [Triple](https://codeforces.com/contest/1669/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1669/B%20-%20Triple/solution.cpp) |
-| 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.cpp) |
-| 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
-| 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.cpp) |
-| 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
-| 1873C | [Target Practice](https://codeforces.com/contest/1873/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1873/C%20-%20Target%20Practice/solution.cpp) |
-| 1950A | [Stair, Peak, or Neither?](https://codeforces.com/contest/1950/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1950/A%20-%20Stair%2C%20Peak%2C%20or%20Neither%3F/solution.cpp) |
-
-### math
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 472A | [Design Tutorial: Learn from Math](https://codeforces.com/contest/472/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/472/A%20-%20Design%20Tutorial%3A%20Learn%20from%20Math/solution.cpp) |
-| 1343A | [Candies](https://codeforces.com/contest/1343/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1343/A%20-%20Candies/solution.cpp) |
-| 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.cpp) |
-| 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.cpp) |
-| 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
-| 1857A | [Array Coloring](https://codeforces.com/contest/1857/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1857/A%20-%20Array%20Coloring/solution.cpp) |
-| 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.cpp) |
-| 1873C | [Target Practice](https://codeforces.com/contest/1873/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1873/C%20-%20Target%20Practice/solution.cpp) |
-| 1878C | [Vasilije in Cacak](https://codeforces.com/contest/1878/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1878/C%20-%20Vasilije%20in%20Cacak/solution.cpp) |
-| 2095F | [⅓ оf а Рrоblеm](https://codeforces.com/contest/2095/problem/F) | Unrated | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2095/F%20-%20%E2%85%93%20%D0%BEf%20%D0%B0%20%D0%A0r%D0%BEbl%D0%B5m/solution.cpp) |
-| 2184A | [Social Experiment](https://codeforces.com/contest/2184/problem/A) | 800 | [PyPy 3](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2184/A%20-%20Social%20Experiment/solution.txt) |
-
-### number theory
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 472A | [Design Tutorial: Learn from Math](https://codeforces.com/contest/472/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/472/A%20-%20Design%20Tutorial%3A%20Learn%20from%20Math/solution.cpp) |
-| 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.cpp) |
-| 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
-| 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.cpp) |
-
-### schedules
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
-
-### sortings
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 1669B | [Triple](https://codeforces.com/contest/1669/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1669/B%20-%20Triple/solution.cpp) |
-| 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
+| 1607A | [Linear Keyboard](https://codeforces.com/contest/1607/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1607/A%20-%20Linear%20Keyboard/solution.cpp) |
 
 ### strings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 1883B | [Chemistry](https://codeforces.com/contest/1883/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1883/B%20-%20Chemistry/solution.cpp) |
+| 1607A | [Linear Keyboard](https://codeforces.com/contest/1607/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1607/A%20-%20Linear%20Keyboard/solution.cpp) |
 
 ---
 
