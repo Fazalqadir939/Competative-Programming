@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 2 |
+| 2 | 2 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [implementation](#implementation) (1)
-- [strings](#strings) (1)
+- [implementation](#implementation) (2)
+- [strings](#strings) (2)
 
 ---
 
@@ -22,12 +22,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1607A | [Linear Keyboard](https://codeforces.com/contest/1607/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1607/A%20-%20Linear%20Keyboard/solution.cpp) |
+| 1914A | [Problemsolving Log](https://codeforces.com/contest/1914/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1914/A%20-%20Problemsolving%20Log/solution.cpp) |
 
 ### strings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1607A | [Linear Keyboard](https://codeforces.com/contest/1607/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1607/A%20-%20Linear%20Keyboard/solution.cpp) |
+| 1914A | [Problemsolving Log](https://codeforces.com/contest/1914/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1914/A%20-%20Problemsolving%20Log/solution.cpp) |
 
 ---
 
