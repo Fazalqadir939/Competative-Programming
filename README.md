@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 4 | 4 |
+| 5 | 5 |
 
 ---
 
@@ -14,8 +14,9 @@
 
 - [greedy](#greedy) (2)
 - [implementation](#implementation) (2)
+- [math](#math) (1)
 - [sortings](#sortings) (1)
-- [strings](#strings) (2)
+- [strings](#strings) (3)
 
 ---
 
@@ -33,6 +34,12 @@
 | 1607A | [Linear Keyboard](https://codeforces.com/contest/1607/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1607/A%20-%20Linear%20Keyboard/solution.cpp) |
 | 1914A | [Problemsolving Log](https://codeforces.com/contest/1914/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1914/A%20-%20Problemsolving%20Log/solution.cpp) |
 
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2179A | [Blackslex and Password](https://codeforces.com/contest/2179/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2179/A%20-%20Blackslex%20and%20Password/solution.cpp) |
+
 ### sortings
 
 | # | Problem | Difficulty | Solution |
@@ -45,6 +52,7 @@
 |---|---------|------------|----------|
 | 1607A | [Linear Keyboard](https://codeforces.com/contest/1607/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1607/A%20-%20Linear%20Keyboard/solution.cpp) |
 | 1914A | [Problemsolving Log](https://codeforces.com/contest/1914/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1914/A%20-%20Problemsolving%20Log/solution.cpp) |
+| 2179A | [Blackslex and Password](https://codeforces.com/contest/2179/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2179/A%20-%20Blackslex%20and%20Password/solution.cpp) |
 
 ---
 
