@@ -6,24 +6,32 @@
 
 | Total Problems | Topics |
 |---|---|
-| 5 | 5 |
+| 6 | 6 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [greedy](#greedy) (2)
-- [implementation](#implementation) (2)
-- [math](#math) (1)
+- [brute force](#brute-force) (1)
+- [greedy](#greedy) (3)
+- [implementation](#implementation) (3)
+- [math](#math) (2)
 - [sortings](#sortings) (1)
-- [strings](#strings) (3)
+- [strings](#strings) (4)
 
 ---
+
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1676C | [Most Similar Words](https://codeforces.com/contest/1676/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1676/C%20-%20Most%20Similar%20Words/solution.cpp) |
 
 ### greedy
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1676C | [Most Similar Words](https://codeforces.com/contest/1676/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1676/C%20-%20Most%20Similar%20Words/solution.cpp) |
 | 1692B | [All Distinct](https://codeforces.com/contest/1692/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1692/B%20-%20All%20Distinct/solution.cpp) |
 | 1931B | [Make Equal](https://codeforces.com/contest/1931/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1931/B%20-%20Make%20Equal/solution.cpp) |
 
@@ -32,12 +40,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1607A | [Linear Keyboard](https://codeforces.com/contest/1607/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1607/A%20-%20Linear%20Keyboard/solution.cpp) |
+| 1676C | [Most Similar Words](https://codeforces.com/contest/1676/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1676/C%20-%20Most%20Similar%20Words/solution.cpp) |
 | 1914A | [Problemsolving Log](https://codeforces.com/contest/1914/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1914/A%20-%20Problemsolving%20Log/solution.cpp) |
 
 ### math
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1676C | [Most Similar Words](https://codeforces.com/contest/1676/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1676/C%20-%20Most%20Similar%20Words/solution.cpp) |
 | 2179A | [Blackslex and Password](https://codeforces.com/contest/2179/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2179/A%20-%20Blackslex%20and%20Password/solution.cpp) |
 
 ### sortings
@@ -51,6 +61,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1607A | [Linear Keyboard](https://codeforces.com/contest/1607/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1607/A%20-%20Linear%20Keyboard/solution.cpp) |
+| 1676C | [Most Similar Words](https://codeforces.com/contest/1676/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1676/C%20-%20Most%20Similar%20Words/solution.cpp) |
 | 1914A | [Problemsolving Log](https://codeforces.com/contest/1914/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/1914/A%20-%20Problemsolving%20Log/solution.cpp) |
 | 2179A | [Blackslex and Password](https://codeforces.com/contest/2179/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Fazalqadir939/Competative-Programming/blob/HEAD/2179/A%20-%20Blackslex%20and%20Password/solution.cpp) |
 
